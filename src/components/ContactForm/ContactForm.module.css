@@ -1,0 +1,45 @@
+.contactForm {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contactInput {
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.addButton {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.error {
+  padding-top: 5px;
+  color: red;
+  font-size: 12px;
+}
+
+.phoneIcon {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.addButton:hover {
+  background-color: #d5d5d5;
+}
